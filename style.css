@@ -11,7 +11,7 @@ body{
 
 /*标题*/
 .tili{
-    color: #2f3542;
+    color: #696969/*#2f3542;*/;
     width: 100%;
     padding: 40px;
 }
@@ -42,7 +42,7 @@ body{
 
 .table h2{
     text-transform: uppercase;
-    color: #2f3542;
+    color: #696969/*#2f3542*/;
 }
 
 .table ul{
@@ -79,7 +79,7 @@ body{
 }
 
 .table a:hover{
-    background: #2c3e50;
+    background: #696969/*#2c3e50*/;
     color: #fff;
 }
 
