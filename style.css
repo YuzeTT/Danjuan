@@ -58,7 +58,7 @@ body{
 .price{
     font-size: 40px;
     margin-bottom: 20px;
-    color: #2f3542;
+    color: #696969/*#2f3542*/;
 }
 
 .price span{
@@ -68,7 +68,7 @@ body{
 
 .table a{
     text-decoration: none;
-    color: #2c3e50;
+    color: #696969/*#2c3e50*/;
     border: 2px solid #2c3e50;
     display: block;
     padding: 10px 0;
@@ -85,7 +85,7 @@ body{
 
 /*NEW标签*/
 .pop{
-    background: #2c3e50;
+    background: #696969/*#2c3e50*/;
     color: #fff;
     transform: rotate(45deg);
     padding: 10px 55px;
@@ -100,7 +100,7 @@ body{
     bottom:0;
     width: 100%;
     text-align: center;
-    background: #2c3e50;
+    background: #696969/*#2c3e50*/;
     color: #fff;
     font-family: Arial;
     font-size: 12px;
