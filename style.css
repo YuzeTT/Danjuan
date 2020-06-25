@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background: url(https://s1.ax1x.com/2020/04/04/GdQgQP.png) ;*/
+    background: #F4F8FB;
+    background-position: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/*标题*/
+.tili{
+    color: #2f3e4c;
+    width: 100%;
+    padding: 40px;
+}
+
+h2{
+    color: #2f3e4c;
+    width: 100%;
+}
+
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+    
+}
+
+.table{
+    border-radius: .5rem;
+    background: #FEFEFE;
+    padding: 40px 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0.5rem 0.875rem 2.375rem rgba(39,44,49,.06),
+    0.0625rem 0.1875rem 0.5rem rgba(39,44,49,.03);
+    /*margin-bottom: 20px;*/
+}
+
+.table h2{
+    text-transform: uppercase;
+    color: #2f3542;
+}
+
+.table ul{
+    margin: 0;
+    padding: 0;
+}
+
+.table ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.price{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #2f3542;
+}
+
+.price span{
+    display: block;
+    font-size: 14px;
+}
+
+.table a{
+    
+    text-decoration: none;
+    
+    /*border: 2px solid #249ffd;*/
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: 0.2s linear;
+    text-align:center;
+    
+    padding: 10px 0;
+}
+
+.table .btn-left.ok{
+    color: #249ffd;
+    width: 67.5%;
+    border: 2px solid #249ffd;
+    display: block;
+    /*padding: 10px 79px;*/
+    /*border-radius: 40px;*/
+    transition: 0.2s linear;
+    /*-webkit-border-top-right-radius:40px;*/
+    border-radius: 30px 0px 0px 30px;
+    
+
+    float: left 
+}
+
+.table .btn-left.no{
+    color: #aaaaaa;
+    width: 67.5%;
+    border: 2px solid #aaaaaa;
+    display: block;
+    /*padding: 10px 79px;*/
+    /*border-radius: 40px;*/
+    transition: 0.2s linear;
+    /*-webkit-border-top-right-radius:40px;*/
+    border-radius: 30px 0px 0px 30px;
+    
+
+    float: left 
+}
+
+.table .btn-right.ok{
+    color: #249ffd;
+    width: 30%;
+    /*border: 2px solid #249ffd;*/
+    border-top: 2px solid #249ffd;
+    border-bottom: 2px solid #249ffd;
+    border-right: 2px solid #249ffd;
+    display: block;
+    /*padding: 10px 20px;*/
+    /*border-radius: 40px;*/
+    transition: 0.2s linear;
+    border-radius: 0px 30px 30px 0px;
+    
+
+    float: right; 
+}
+
+.table .btn-right.no{
+    color: #aaaaaa;
+    width: 30%;
+    /*border: 2px solid #249ffd;*/
+    border-top: 2px solid #aaaaaa;
+    border-bottom: 2px solid #aaaaaa;
+    border-right: 2px solid #aaaaaa;
+    display: block;
+    /*padding: 10px 20px;*/
+    /*border-radius: 40px;*/
+    transition: 0.2s linear;
+    border-radius: 0px 30px 30px 0px;
+    
+
+    float: right; 
+}
+
+
+.table a.ok:hover{
+    background: #249ffd;
+    color: #fff;
+}
+
+.table a.no:hover{
+    background: #aaaaaa;
+    color: #fff;
+}
+
+
+/*NEW标签*/
+.NEW{
+    background: #fa5477;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 55px;
+    position: absolute;
+    top: 13px;
+    right: -40px;
+}
+
+.WAIT{
+    background: #bd83ce;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 55px;
+    position: absolute;
+    top: 13px;
+    right: -40px;
+}
+
+.AD{
+    background: #f79817;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px 55px;
+    position: absolute;
+    top: 13px;
+    right: -40px;
+}
+
+/*CC协议*/
+.cc{
+    /*position:fixed;
+    bottom:0;*/
+    width: 100%;
+    text-align: center;
+    /*background: #FEFEFE;*/
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+}
+
+.cc a{
+    text-decoration: none;
+    color: #2f3e4c;
+}
+
+body cc{
+    height: 100%;
+}
+
+
+
+
+@media screen and (max-width:980px){
+    .col{
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .col{
+        flex: 100%;
+    }
+}
