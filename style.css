@@ -9,7 +9,6 @@ body{
     background-repeat: no-repeat;
 }
 
-
 /*标题*/
 .tili{
     color: #2f3e4c;
@@ -35,7 +34,7 @@ h2{
     flex: 25%;
     padding: 10px;
     max-width: 320px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     
 }
 
@@ -69,6 +68,7 @@ h2{
     font-size: 40px;
     margin-bottom: 20px;
     color: #2f3542;
+    
 }
 
 .price span{
@@ -92,7 +92,7 @@ h2{
 
 .table .btn-left.ok{
     color: #249ffd;
-    width: 67.5%;
+    width: 68%;
     border: 2px solid #249ffd;
     display: block;
     /*padding: 10px 79px;*/
@@ -107,7 +107,7 @@ h2{
 
 .table .btn-left.no{
     color: #aaaaaa;
-    width: 67.5%;
+    width: 68%;
     border: 2px solid #aaaaaa;
     display: block;
     /*padding: 10px 79px;*/
@@ -122,7 +122,7 @@ h2{
 
 .table .btn-right.ok{
     color: #249ffd;
-    width: 30%;
+    width: 29.69%;
     /*border: 2px solid #249ffd;*/
     border-top: 2px solid #249ffd;
     border-bottom: 2px solid #249ffd;
@@ -132,14 +132,14 @@ h2{
     /*border-radius: 40px;*/
     transition: 0.2s linear;
     border-radius: 0px 30px 30px 0px;
-    
+
 
     float: right; 
 }
 
 .table .btn-right.no{
     color: #aaaaaa;
-    width: 30%;
+    width: 29.69%;
     /*border: 2px solid #249ffd;*/
     border-top: 2px solid #aaaaaa;
     border-bottom: 2px solid #aaaaaa;
@@ -154,6 +154,26 @@ h2{
     float: right; 
 }
 
+.table .btn-no{
+    color: #249ffd;
+    width: 45%;
+    border: 2px solid #249ffd;
+    display: block;
+    /*padding: 10px 79px;*/
+    /*border-radius: 40px;*/
+    transition: 0.2s linear;
+    /*-webkit-border-top-right-radius:40px;*/
+    border-radius: 30px;
+    
+    margin-right: 4.5px;
+    margin-left: 4.5px;
+    float: left;
+}
+
+.table a:hover{
+    background: #249ffd;
+    color: #fff;
+}
 
 .table a.ok:hover{
     background: #249ffd;
@@ -164,6 +184,8 @@ h2{
     background: #aaaaaa;
     color: #fff;
 }
+
+
 
 
 /*NEW标签*/
@@ -234,3 +256,4 @@ body cc{
         flex: 100%;
     }
 }
+
