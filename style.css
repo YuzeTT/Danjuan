@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background: url(https://s1.ax1x.com/2020/04/04/GdQgQP.png) ;*/
+    background: #F4F8FB;
+    background-position: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*标题*/
+.tili{
+    color: #000000;
+    width: 100%;
+    padding: 40px;
+}
+
+h2{
+    color: #000000;
+    width: 100%;
+}
